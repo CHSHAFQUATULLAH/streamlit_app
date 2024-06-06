@@ -36,7 +36,7 @@ def fetch_news():
 
 def crop_disease_detection_app():
     logo_path = 'https://github.com/CHSHAFQUATULLAH/streamlit_app/blob/851f72ea14175fbc175459502acc3923139c4f8b/images.jpeg'
-
+    response = requests.get(labels_url)
     try:
         logo = Image.open(logo_path)
         # Set the desired size (width, height) for the logo
