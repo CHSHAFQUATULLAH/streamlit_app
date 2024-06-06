@@ -197,7 +197,7 @@ def crop_disease_detection_app():
         """)
     elif selected_option == "Detect Disease":
 
-        BASE_DIR = r'C:\Users\home\Desktop\models'
+        BASE_DIR = r'https://github.com/CHSHAFQUATULLAH/streamlit_app/blob/212f09a14e8a5f1b7f3ad2b2977adc66a83015c6/best%20(2).pt'
         MODEL_NAME = 'best (2).pt'
         MODEL_PATH = os.path.join(BASE_DIR, MODEL_NAME)
         LABELS_PATH = r'C:\Users\home\Desktop\models\labels.txt'
