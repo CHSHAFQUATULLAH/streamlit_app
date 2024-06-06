@@ -36,11 +36,9 @@ def fetch_news():
 
 def fetch_diseases():
     diseases = [
-        {"name": "Coffee_healthy", "image_path": "https://github.com/CHSHAFQUATULLAH/streamlit_app/blob/851f72ea14175fbc175459502acc3923139c4f8b/images.jpeg", "info": [
+        { "image_path": "https://github.com/CHSHAFQUATULLAH/streamlit_app/blob/851f72ea14175fbc175459502acc3923139c4f8b/images.jpeg", "info": [
             "Symptoms: No visible symptoms; plant appears healthy.", "Best-suited Medicine: No treatment required."]}
-        {"name": "Cucumber_Blight", "image_path": "https://github.com/CHSHAFQUATULLAH/streamlit_app/blob/851f72ea14175fbc175459502acc3923139c4f8b/images.jpeg", "info": [
-            "Symptoms: Dark, water-soaked lesions on leaves, stems, and fruit, leading to wilting and death of plants.", "Best-suited Medicine: Fungicides containing chlorothalonil or copper."]},
-        # Add more diseases with their image paths and information here
+       
     ]
     return diseases
 
