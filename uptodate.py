@@ -2,7 +2,6 @@ import streamlit as st
 from PIL import Image
 import feedparser
 import numpy as np
-import cv2
 import os
 import torch
 from torchvision import transforms
@@ -34,13 +33,6 @@ def fetch_news():
             all_news.append(news_item)
     return all_news
 
-def fetch_diseases():
-    diseases = [
-        { "image_path": "https://github.com/CHSHAFQUATULLAH/streamlit_app/blob/851f72ea14175fbc175459502acc3923139c4f8b/images.jpeg", "info": [
-            "Symptoms: No visible symptoms; plant appears healthy.", "Best-suited Medicine: No treatment required."]}
-       
-    ]
-    return diseases
 
 def crop_disease_detection_app():
     logo_path = 'https://github.com/CHSHAFQUATULLAH/streamlit_app/blob/851f72ea14175fbc175459502acc3923139c4f8b/images.jpeg'
